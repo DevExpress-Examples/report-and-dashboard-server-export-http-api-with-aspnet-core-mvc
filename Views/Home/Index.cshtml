@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @Html.ActionLink("Export report ", "ExportReport", "Home", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Export dashboard", "ExportDashboard", "Home", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Get scheduled job result", "GetScheduledJobGeneratedDocument", "Home", null, new { @class = "btn btn-default" })
+</div>
