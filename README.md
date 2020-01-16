@@ -23,4 +23,4 @@ After the application is built, open your browser and go to _http://localhost:50
 
 **Documentation**
 
-  Link to export api documentation here
+  https://docs.devexpress.com/ReportServer/401403/configuration-and-api/http-api#api-list
